@@ -18,7 +18,7 @@ def bfs(x, depth):
         for nx in (x - 1, x + 1, 2 * x):
             if -1 < nx < 100001:
                 if visited[nx] == 0:
-                    q.append((nx, depth+1))
+                    q.append((nx, depth + 1))
                     visited[nx] = 1
 
 
